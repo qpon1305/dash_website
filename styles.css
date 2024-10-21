@@ -2901,16 +2901,6 @@ h1 {
 .image-4 {
   text-align: left;
 }
-
-.container-3 {
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-}
-
 @media screen and (max-width: 991px) {
   .nav-menu-wrapper {
     background-color: #0000;
