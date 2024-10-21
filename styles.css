@@ -2288,21 +2288,31 @@ h1 {
 }
 
 .products-wrapper {
-  grid-column-gap: 0%;
-  grid-row-gap: 0%;
-  text-align: center;
-  overflow-wrap: normal;
-  mix-blend-mode: normal;
-  background-color: #0000;
-  flex-flow: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   display: flex;
-  overflow: visible;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.image-container {
+  width: 100%;
+  max-width: 300px;
+}
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+@media (min-width: 768px) {
+  .image-container {
+      width: calc(33.333% - 20px);
+  }
+}
+@media (min-width: 1024px) {
+  .image-container {
+      width: calc(20% - 20px);
+  }
 }
 
 .nav-buttons-wrapper {
