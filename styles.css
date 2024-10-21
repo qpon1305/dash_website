@@ -2689,6 +2689,7 @@ h1 {
   font-weight: 300;
   line-height: 20px;
   display: block;
+  margin-bottom: 0px;
 }
 
 .footer-dark {
